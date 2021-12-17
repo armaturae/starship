@@ -1,0 +1,19 @@
+# Don't print a new line at the start of the prompt
+add_newline = true
+
+[username]
+disabled = false
+
+
+[character]      # The name of the module we are configuring is "character"
+error_symbol = "[❯](bold red)"
+success_symbol = "[➜](bold green)"
+vicmd_symbol = " ❮"
+
+[python]
+symbol = "py"
+style = "bold blue"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
